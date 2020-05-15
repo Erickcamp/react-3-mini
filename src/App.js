@@ -13,6 +13,7 @@ class App extends Component {
     this.state = {
       vehiclesToDisplay: [],
       buyersToDisplay: []
+      
     };
 
     this.getVehicles = this.getVehicles.bind(this);
